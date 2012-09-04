@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, main!</string>
+	<string name="app_name">MyAiBang1.0</string>
+	<string name="main_home">路线</string>
+	<string name="main_comment">站点</string>
+	<string name="main_message">换乘</string>
+	<string name="main_edit">编写</string>
+	<string name="main_reload">吃玩</string>
+	<string name="more">更多</string>
+	<string name="route_text">路线</string>
+	<string name="route_button">查询</string>
+</resources>

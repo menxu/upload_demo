@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/route"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/route_tv"
+        android:text="@string/route_text"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:layout_marginLeft="5px"
+        android:textColor="@color/red"/>
+   
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/route_et"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/route_bt"
+        android:text="@string/route_button"/>
+    
+    <!-- 
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/result"
+        android:textColor="@color/red"/> -->
+        
+     <ListView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/listView1"
+         android:layout_marginLeft="-30dip"
+         android:fadingEdge="none"
+         android:scrollingCache="false"/>
+	
+</LinearLayout>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
